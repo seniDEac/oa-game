@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta   name="viewport"  content="width=device-width, initial-scale=1.0"/>
+      <link   rel="stylesheet" href="assets/index.css" />
+</head>
+<body onload="startGame()">
+      <div id="gameGraphicsContainer" class="gameGraphicsContainer">
+        <canvas id='gameGraphics' class='gameGraphics'   width='3000px' height='3000px' >
+        </canvas>
+      </div>
+
+      <div class="controlsBotton">
+        <img src="img/dir-left.png"   onmousedown="move('left' )" onmouseup="clearmove()" ontouchstart="move('left' )" >
+        <img src="img/dir-up.png"     onmousedown="move('up'   )" onmouseup="clearmove()" ontouchstart="move('up'   )" >
+        <img src="img/dir-down.png"   onmousedown="move('down' )" onmouseup="clearmove()" ontouchstart="move('down' )" >
+        <img src="img/dir-right.png"  onmousedown="move('right')" onmouseup="clearmove()" ontouchstart="move('right')" >
+        <button type="button" name="button" onclick="fire();">Fire</button>
+      </div>
+
+      <audio id="audio">
+          <source src="sounds/laserShot01.mp3" type="audio/mp3" />
+      </audio>
+
+      <div id="monitor1" class="monitor">
+          monitor1
+      </div>
+      <div id="monitor2" class="monitor">
+          monitor2
+      </div>
+      <div id="monitor3" class="monitor">
+          monitor3
+      </div>
+      <div id="monitor4" class="monitor">
+          monitor4
+      </div>
+
+</body>
+</html>
+
+
+
+<script src ="assets/index.js">			</script>

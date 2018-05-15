@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  padding: 0px 0px;
+}
+.gameGraphics{
+  border:solid 0px green;
+  overflow: scroll;
+}
+.gameGraphicsContainer{
+  margin: 0;
+  padding: 0px 0px;
+  border:solid 0px red;
+  width:100%;
+  height:0px;
+  overflow: scroll;
+}
+.controlsBotton{
+  border:solid 0px red;
+  text-align:center;
+  width:100%;
+}
